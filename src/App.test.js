@@ -1,23 +1,10 @@
-import datosPersonales from './App';
+import perfilfoto from './imagenes/perfilfoto2.jpg';
+import { datosPersonales, habilidadesBlandas, proyectos } from './App';
 
-// Mock de datos para pruebas
-const habilidadesBlandas = [
-  'Responsabilidad y compromiso profesional',
-  'Trabajo en equipo y comunicación efectiva',
-  'Capacidad de aprendizaje continuo',
-  'Adaptabilidad a entornos tecnológicos',
-  'Iniciativa'
-];
-const proyectos = [
-  { nombre: 'Proyecto 1', descripcion: 'Desc 1' },
-  { nombre: 'Proyecto 2', descripcion: 'Desc 2' },
-  { nombre: 'Proyecto 3', descripcion: 'Desc 3' }
-];
-
-describe('Validaciones de Portafolio', () => {
+describe('Validaciones de Portafolio Femenino', () => {
   test('Datos personales incluyen fotografía, teléfono y nombre completo', () => {
-    expect(datosPersonales.foto).toBeDefined();
-    expect(typeof datosPersonales.foto).toBe('string');
+    expect(datosPersonales.foto).toBe(perfilfoto);
+    expect(typeof datosPersonales.telefono).toBe('string');
     expect(datosPersonales.telefono).toMatch(/\d{9,}/);
     expect(datosPersonales.nombre).toMatch(/\w+ \w+/);
   });

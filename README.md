@@ -1,3 +1,9 @@
+NOTA
+Este proyecto fue desarrollado en Visual Studio Code haciendo uso de GitHub Copilot.
+Notas sobre el uso de GitHub Copilot:
+
+Durante el desarrollo de este portafolio, utilicé GitHub Copilot como asistente para redactar y sugerir fragmentos de código. La herramienta facilitó la creación de componentes estructurados para mostrar habilidades, experiencia y formación, acelerando el proceso y asegurando la coherencia visual y funcional. Tras las sugerencias, revisé y ajusté el código para cumplir con los estándares del proyecto y reflejar con precisión las capacidades.
+
 # Portafolio Personal con React y Material UI
 
 Este proyecto es un portafolio personal desarrollado con React y Material UI (Material Design). Incluye:
@@ -30,8 +36,3 @@ Reemplaza los datos de ejemplo y la fotografía por tu información personal en 
 - Material UI
 
 ---
-## NOTA
-Desarrollado en Visual Studio Code con GitHub Copilot.
-Notas sobre el uso de GitHub Copilot:
-
-Para implementar las pruebas unitarias, utilicé GitHub Copilot como asistente de desarrollo. La herramienta me ayudó a redactar y sugerir fragmentos de código para validar diferentes requisitos, como la carga correcta de la fotografía, la estructura del listado de habilidades y proyectos, y la validación de datos personales. Gracias a sus autocompletados, pude acelerar la creación de las funciones de prueba, asegurando que cumplieran con la lógica necesaria. Posteriormente, revisé y ajusté las sugerencias para adaptarlas a los estándares y detalles específicos de nuestro proyecto.
